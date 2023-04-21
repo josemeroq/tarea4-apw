@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(imag1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top:100px;
+}
+
+.contenedortodo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.contenedor_bucle{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+
+   }
+
+.contenedor_bucle form{
+    width: 100%;
+    padding: 20px 20px;
+    background:  #e2a18d;
+    position: absolute;
+    border-radius: 20px;
+    border: 4px solid #aa5439fb;
+}
+
+.contenedor_bucle form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #501106;
+}
+
+.contenedor_bucle form label{
+    color: rgb(29, 18, 18);
+    font-size: 18px;
+}
+
+.contenedor_bucle form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #e4d0ca;
+    font-size:16px;
+    outline: none;
+    border: 2px solid #b48470;
+}
+
+.contenedor_bucle form button{
+    padding: 10px 95px;
+    margin-top: 40px;
+    border: none;
+    border: 2px solid #9e3c0a;
+    font-size: 14px;
+    background: #eed7c2;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    transform: all 300ms;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_bucle button:hover{
+    background: #813816;
+    color:rgb(red, green, blue, 0,5)
+}
+
+.contenedor_bucle form p{
+    color: rgb(219, 127, 7);
+}
+
+.proceso_resultado{
+
+    display: flex;
+    border-radius: 20px;
+    width: 100%;
+    padding: 40px 20px;
+    background: #b6235bc9;
+    align-items: center;
+    max-width: 480px;
+    position: relative;
+    top: 270px;
+    left: 150px;
+    transition: all 500ms;
+    border: 3px solid #dbc3d29f;
+    color: aliceblue;
+}
